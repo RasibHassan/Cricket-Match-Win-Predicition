@@ -6,7 +6,7 @@ import pandas as pd
 from joblib import load
 import matplotlib.pyplot as plt
 st.set_page_config(layout="wide")
-model = load('model.joblib')
+model = load('mymodel.joblib')
 st.markdown("<h1 style = 'color:Gold; Text-align: Center; font-size: 35px;'>Pakistan Super League (PSL) Win Predictor</h1>", unsafe_allow_html=True)
 
 # Display text
